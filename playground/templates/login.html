@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        .form-container {
+            width: 100%;
+            height: 100%;
+            border-radius: 0.75rem;
+            background-color: #fbf8f4;
+            /* padding: 2rem; */
+            padding-top: 5%;
+            padding-bottom: 10%;
+            color: #000000;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.5rem;
+            line-height: 2rem;
+            font-weight: 500;
+            margin-top: 7%;
+        }
+
+
+        .input-group {
+            margin-top: 2%;
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+
+        .input-group input {
+            width: 35%;
+            border-radius: 0.375rem;
+            border: 1px solid rgba(243, 244, 246, 1);
+            outline: 0;
+            background-color: #eae7e1;
+            padding: 0.75rem 1rem;
+            color: black;
+            margin-left: 32%;
+        }
+
+
+        .forgot {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            margin-bottom: 30px;
+            margin-right: 60.5%;
+            margin-top: 1.2%;
+            text-decoration: underline;
+        }
+
+        .forgot a,
+        .signup a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+
+        .sign {
+            display: block;
+            width: 7%;
+            background-color: #eae7e1;
+            padding: 0.75rem;
+            text-align: center;
+            border: none;
+            border-radius: 0.2rem;
+            font-weight: 600;
+            margin-left: 46%;
+            margin-top: 3%;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+
+        .signup {
+            text-align: center;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            color: #000000;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="form-container">
+        <p class="title">Login</p>
+        <form class="form">
+            <div class="input-group">
+                <input type="email" name="username" id="username" placeholder="Email">
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password" id="password" placeholder="Password">
+                <div class="forgot">
+                    <a href="products.html" target="_blank"> <a rel="noopener noreferrer" href="forgetPassword.html"
+                            target="_blank">Forgot Password ?</a>
+                </div>
+            </div>
+            <button class="sign">Sign in</button>
+        </form>
+        <p class="signup">
+            <a rel="noopener noreferrer" href="signup.html" target="_blank">Create Account</a>
+        </p>
+    </div>
+</body>
+
+</html>
